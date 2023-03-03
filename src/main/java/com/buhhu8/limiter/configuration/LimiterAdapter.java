@@ -15,8 +15,7 @@ public class LimiterAdapter implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(rateLimitInterceptor)
-                .addPathPatterns("/v1/**");
+        registry.addInterceptor(rateLimitInterceptor);
     }
 
 }
