@@ -1,0 +1,3 @@
+limiters:
+  capacity: ${limiter.capacity:1}
+  duration: ${limiter.duration:1}
